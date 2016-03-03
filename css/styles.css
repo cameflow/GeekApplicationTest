@@ -1,0 +1,93 @@
+body {
+  background-image: url("../bg.jpg");
+}
+
+div {
+  padding: 0px !important;
+  margin: 0px  !important;
+}
+
+.content {
+  margin: 5% !important;
+}
+
+.nav-bg2{
+  margin-bottom: 20px !important;
+}
+
+.nav-bg2 > li.active > a{
+  background-color: #990000 !important;
+}
+
+.nav-bg2 li{
+  border: .5px solid silver;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.nav-bg li {
+  border: 1px solid gray;
+  border-radius: 3px;
+  width: 100px;
+  text-align: center;
+  background-image: url("../nav-bg.jpg");
+  background-size: 50px 50px;
+  border-radius: 5px;
+}
+
+.tr-bottom {
+  background: #009900;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+}
+
+.bl {
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.titleContact {
+  background-image: url("../g-bg.jpg");
+  background-size: 200px 200px;
+  color: white !important;
+}
+
+.br-top {
+  background: white;
+}
+
+.br-bottom {
+  background: cyan;
+}
+
+.healthyRec{
+  margin-top: 20px !important;
+  margin-left: 10px !important;
+}
+
+.healthyRecH{
+
+  background-image: url("../des.jpg");
+  background-size: 900px 300px;
+  height: 10em;
+}
+
+.healthyRecCont{
+  background-color: white;
+}
+.pepper {
+  background-image: url("../pepper.jpg");
+  background-size: 450px 400px;
+  height: 14em;
+}
+
+.ice-cream {
+  background-image: url("../ice.jpg");
+  background-size: 200px 200px;
+  height: 11.68em;
+}
