@@ -53,6 +53,8 @@ div {
 
 .titleContact {
   background-image: url("../g-bg.jpg");
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   background-size: 200px 200px;
   color: white !important;
 }
@@ -68,6 +70,7 @@ div {
 .healthyRec{
   margin-top: 20px !important;
   margin-left: 10px !important;
+
 }
 
 .healthyRecH{
@@ -75,11 +78,22 @@ div {
   background-image: url("../des.jpg");
   background-size: 900px 300px;
   height: 10em;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
+
+.centerText {
+  padding: 20px;
+}
+
 
 .healthyRecCont{
   background-color: white;
+  text-align: center;
+  height: 10em;
 }
+
+
 .pepper {
   background-image: url("../pepper.jpg");
   background-size: 450px 400px;
