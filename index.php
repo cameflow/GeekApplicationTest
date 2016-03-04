@@ -56,7 +56,10 @@
               </div> <!-- Close div of carousel -->
               <div class="col-md-6"> <!-- Div of subscription -->
                 <div class="pepper container-fluid">
-                  <div class="input-group" style="margin: 100px !important">
+                  <p>
+                    Subscribe to our newsletter!
+                  </p>
+                  <div class="input-group">
                     <input type="text" class="form-control" placeholder="Email...">
                     <span class="input-group-btn">
                       <button class="btn btn-default" type="button">Subscribe!</button>
@@ -147,15 +150,32 @@
             </div>
             <div class="healthyRecCont">
               <div class="col-md-6">
-                <h1 class="centerText">
-                  HEALTHY RECIPES
+                <h1 class="centerText" style="padding: 1px !important; margin: 0px !important">
+                  <?php
+                  // These code snippets use an open-source library.
+                  require_once 'unirest-php/src/Unirest.php';
+                  $response = Unirest\Request::get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/4632/summary",
+                      array(
+                        "X-Mashape-Key" => "XhBv80sralmsh2WAqs06DiNSr9cip1wuQG6jsnJ7UbahmU1njy"
+                      )
+                    );
+                    echo $response->body->title;
+                   ?>
+                </p>
                 </h1>
               </div>
               <div>
-                <p class="centerText">
-                  Our bakery offers a lot of different cakes and they are all very delicious.
-                  You can choose one, we have many flavors yum yum.
-                  The best one is the caramel one.
+                <p class="centerText api-text" style="font-size: 8px !important">
+                  <?php
+                  // These code snippets use an open-source library.
+                  require_once 'unirest-php/src/Unirest.php';
+                  $response = Unirest\Request::get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/4632/summary",
+                      array(
+                        "X-Mashape-Key" => "XhBv80sralmsh2WAqs06DiNSr9cip1wuQG6jsnJ7UbahmU1njy"
+                      )
+                    );
+                    echo $response->body->summary;
+                   ?>
                 </p>
               </div>
             </div>

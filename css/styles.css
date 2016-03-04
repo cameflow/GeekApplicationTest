@@ -52,6 +52,16 @@ div {
   background-image: url("../images/pepper.jpg");
   background-size: 450px 400px;
   height: 14em;
+  text-align: center;
+  padding-top: 50px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+body .pepper p {
+  font-size: 25px !important;
+  font-weight: bold;
+  color: white !important;
 }
 
 .ice-cream {
