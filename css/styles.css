@@ -1,3 +1,4 @@
+/* ------ TAG STYLES ------ */
 body {
   background-image: url("../images/bg.jpg");
 }
@@ -7,22 +8,14 @@ div {
   margin: 0px  !important;
 }
 
+
+/* ------ CLASS STYLES ------ */
 .content {
   margin: 5% !important;
 }
 
-.nav-bg2{
-  margin-bottom: 20px !important;
-}
-
-.nav-bg2 > li.active > a{
-  background-color: #990000 !important;
-}
-
-.nav-bg2 li{
-  border: .5px solid silver;
-  border-radius: 5px;
-  background-color: white;
+.icon {
+  text-align: center;
 }
 
 .nav-bg li {
@@ -35,14 +28,36 @@ div {
   border-radius: 5px;
 }
 
+.nav-bg2{
+  margin-bottom: 20px !important;
+}
+
+.nav-bg2 li{
+  border: .5px solid silver;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.nav-bg2 > li.active > a{
+  background-color: #990000 !important;
+}
+
 .tr-bottom {
   background: #009900;
   border-radius: 5px;
   text-align: center;
 }
 
-.icon {
-  text-align: center;
+.pepper {
+  background-image: url("../images/pepper.jpg");
+  background-size: 450px 400px;
+  height: 14em;
+}
+
+.ice-cream {
+  background-image: url("../images/ice.jpg");
+  background-size: 200px 200px;
+  height: 11.68em;
 }
 
 .bl {
@@ -96,7 +111,6 @@ div {
 }
 
 .healthyRecH{
-
   background-image: url("../images/des.jpg");
   background-size: 900px 300px;
   height: 10em;
@@ -104,30 +118,12 @@ div {
   border-top-left-radius: 5px;
 }
 
-.centerText {
-  padding: 20px !important;
-}
-
-.centerText2 {
-  padding: 50px !important;
-}
-
-
 .healthyRecCont{
   background-color: white;
   text-align: center;
   height: 10em;
 }
 
-
-.pepper {
-  background-image: url("../images/pepper.jpg");
-  background-size: 450px 400px;
-  height: 14em;
-}
-
-.ice-cream {
-  background-image: url("../images/ice.jpg");
-  background-size: 200px 200px;
-  height: 11.68em;
+.centerText {
+  padding: 20px !important;
 }
